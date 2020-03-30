@@ -1,6 +1,6 @@
 ---
 layout: post
-page title: "Joe Staples Writes Code"
+title: "Joe Staples Writes Code"
 date: 2020-03-30
 ---
 
