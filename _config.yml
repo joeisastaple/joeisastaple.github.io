@@ -1,3 +1,4 @@
 name: Joe Staples, copywriter for human beings.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: cayman
