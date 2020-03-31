@@ -25,10 +25,11 @@ title: Joe Staples' Blog
 	{% else %}
 		<span>&laquo; Prev</span>
 	{% endif %}
+
 	{% for page in (1..paginator.total_pages) %}
 		{% if page == paginator.page %}
 			<em>{{ page }}</em>
-		{% elseif page == 1 %}
+		{% else if page == 1 %}
 			<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
 		{% endif %}
 	{% endfor %}
