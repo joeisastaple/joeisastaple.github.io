@@ -1,4 +1,5 @@
-name: Joe Staples, copywriter for human beings.
+title: Joe Staples, copywriter for human beings.
+description: A personal portfolio project.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-cayman
